@@ -1,0 +1,4 @@
+fuel/app/logs/*/*/*
+fuel/app/cache/*/*
+*.project
+*.psd
