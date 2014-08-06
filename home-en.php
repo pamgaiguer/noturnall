@@ -40,6 +40,12 @@
 						<div id="youtube-channel">
 							<img src="images/noturnall-simbolo.png"><span>NOTURNALL CHANNELL</span>
 							<div class="flex-video widescreen" style="margin: 0 auto; text-align: center;">
+								<iframe width="560" height="315" src="//www.youtube.com/embed/Uam-uWJq5fc" frameborder="0" allowfullscreen class="center-block"></iframe>
+							</div>
+							<br>
+							<br>
+							<hr>							
+							<div class="flex-video widescreen" style="margin: 0 auto; text-align: center;">
 								<iframe width="560" height="315" src="//www.youtube.com/embed/WLiWi63Gu84" frameborder="0" allowfullscreen class="center-block"></iframe>
 							</div>
 							<br>
