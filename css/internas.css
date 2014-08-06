@@ -1,0 +1,137 @@
+a, a:hover, a:visited, a:link{
+	color: #bb9861;
+}
+#last-news span, #youtube-channel span, #tour-dates span, #facebook-page span, #icons-page span, #info-album span, #merch-page span{
+	font-size: 60px;
+	font-family:'armyofdarkness';
+	color: #f5b576;
+	letter-spacing: 3px;
+	line-height: 130%;
+}
+#last-news strong, #youtube-channel strong, #tour-dates strong, #facebook-page strong, #merch-page strong{
+	color: #bb9861;
+}
+#last-news p, #youtube-channel p, #tour-dates p, #facebook-page p, #info-album p, #cd-lancamento p, #merch-page p{
+	color: #8d7c61; 	
+}
+#last-news figure img{
+	float: left;
+	padding: 0px 5px 0px 0px;	
+}
+#last-news figure p{
+	font-size: 14px;	
+}
+#cd-lancamento span{
+	color: #f5b576;
+}
+#facebook-page a{
+	color: #bb9861;
+	text-decoration: none;
+	font-size: 14px;
+}
+#facebook-page a:hover{
+	cursor:pointer;
+	text-decoration: underline;
+}
+#tour-dates table{
+	font-size: 14px;
+}
+#tour-dates thead th{
+	color: #bb9861;
+	padding: 5px; 
+}
+#tour-dates tbody tr td{
+	color: #8D7C61;
+	padding: 5px;
+}
+#band-bios {
+	width: 990px;	
+}
+#cd-lancamento p{
+	font-size: 12px;
+}
+/*--------------- integrantes ----------------------*/
+#bio-names {
+	text-align: center;
+}
+#bio-names span a{
+	font-size: 30px;
+	font-family:'armyofdarkness';
+	color: #f5b576;
+	letter-spacing: 3px;
+	border: 1px solid;
+	padding: 5px;	
+}
+#bio-names span a:hover{
+	cursor:pointer;
+	text-decoration: underline;
+}
+@media (min-device-width : 320px) and (max-device-width : 568px) {
+	#bio-names span a{
+	display: block;	
+	}	
+}
+#tbianchi, #lmancini, #fquesada, #apriester, #jcarelli{
+	display: none;
+}
+#tbianchi p, #lmancini p, #fquesada p, #apriester p, #jcarelli p{
+	color: #8d7c61;
+	text-align: justify;
+	font-size: 14px;
+}
+#tbianchi p strong, #lmancini p strong, #fquesada p strong, #apriester p strong, #jcarelli p strong{
+	font-weight: bold;
+}
+#tbianchi a, #lmancini a, #fquesada a, #apriester a, #jcarelli a{
+	color: #f5b576;
+	text-decoration:none;
+}
+#tbianchi a:hover, #lmancini a:hover, #fquesada a:hover, #apriester a:hover, #jcarelli a:hover{
+	color: #f5b576;
+	text-decoration:underline;
+}
+/*--------------- Loja ----------------*/
+.loja p{
+	font-size: 20px;
+	color: #f5b576;
+	font-family: 'TranjanPro';	
+	letter-spacing: 3px;
+}
+.loja ul li{
+	font-size: 16px;
+	color: #f5b576;	
+	letter-spacing: 3px;	
+}
+.loja figure figcaption{
+	text-align: center;
+	color: #f5b576;
+	font-family: 'TranjanPro';	
+}
+#loja-shirts{
+	background: rgba(0,0,0,0.58);
+	border-radius:8px;
+}
+/*---------------------------------- banda all ----------------------*/
+#release-band p{
+	color: #8d7c61;
+	text-align: justify;
+	font-size: 14px;
+	padding: 12px;
+}
+#last-news, #tour-dates, #release-band,#tbianchi, #lmancini, #apriester, #jcarelli, #fquesada, #facebook-page{
+	line-height: 130%;
+}
+div#tour-dates table tbody tr td p.label-confirmation{
+	font-size: 10px;
+	font-weight: bold;
+	color: red;
+}
+#band-right-photos{
+	margin-left: 100px;
+}
+/*
+headers: #f5b576
+texto: #8d7c61
+EXPOMUSIC: #bb9861
+footer: #f1dfb6
+ * */

@@ -1,0 +1,26 @@
+.index{
+	background-color: #000;
+}
+#img-home{
+	margin-top: -50px;
+}
+#title-home{
+	text-align: center;
+	font-family: 'TranjanPro';
+	font-size: 18px;
+	color: #8d7c61;
+}
+#logo-index{
+	margin-left: 53px;
+	margin-top: -103px;
+}
+#flags figure{
+	display: inline-block;
+	margin: 0 25px;
+}
+#flags figure figcaption{
+	text-align: center;
+	font-family: 'TranjanPro';
+	font-size: 20px;
+	color: #8d7c61;
+}

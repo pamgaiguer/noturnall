@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'BirchSTD';
+    src: local('BirchSTD'), url('../css/fonts/birchstd.ttf') format('truetype');
+    font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+    font-family: 'TranjanPro';
+    src: url('../css/fonts/Trajan-Pro-Regular.eot');
+    src: local('Trajan-Pro-Regular'), url('../css/fonts/Trajan-Pro-Regular.ttf') format('truetype'),
+    url('../css/fonts/Trajan-Pro-Regular.svg') format('svg');
+    font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+    font-family: 'armyofdarkness';
+    src: local('Trajan-Pro-Regular'), url('../css/fonts/army-of-darkness.TTF') format('truetype');
+    font-weight: normal;
+	font-style: normal;
+}
