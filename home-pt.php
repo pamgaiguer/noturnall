@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<?php include 'includes/_seo.php'?>
+		<?php include 'includes/_seo.php';?>
 	</head>
 	<body>
 		<div id="fb-root"> </div>
@@ -16,7 +16,7 @@
 					fjs.parentNode.insertBefore(js, fjs);
 				}(document, 'script', 'facebook-jssdk'));
 		</script>
-		<?php include 'includes/_menunav.php'?>
+		<?php include 'includes/_menunav.php';?>
 		<div class="container">
 			<img id="responsive-band" src="images/photo_topo.png" class="img-responsive">
 			</div>
@@ -75,6 +75,81 @@
 								</thead>
 								<tbody>
 									<tr>
+										<td>30/11/2014</td>
+										<td>à definir</td>
+										<td>Salvador/BA</td>
+									</tr>									
+									<tr>
+										<td>29/11/2014</td>
+										<td>à definir</td>
+										<td>Irecê/BA</td>
+									</tr>
+									<tr>
+										<td>28/11/2014</td>
+										<td>à definir</td>
+										<td>Jacobina/BA</td>
+									</tr>
+									<tr>
+										<td>27/11/2014</td>
+										<td>à definir</td>
+										<td>Caruaru/PE</td>
+									</tr>									
+									<tr>
+										<td>26/11/2014</td>
+										<td>à definir</td>
+										<td>João Pessoa/SP</td>
+									</tr>	
+									<tr>
+										<td>23/11/2014</td>
+										<td>à definir</td>
+										<td>Mossoró/RN</td>
+									</tr>
+									<tr>
+										<td>22/11/2014</td>
+										<td>à definir</td>
+										<td>Fortaleza/CE</td>
+									</tr>
+									<tr>
+										<td>21/11/2014</td>
+										<td>à definir</td>
+										<td>Quixadá/CE</td>
+									</tr>
+									<tr>
+										<td>20/11/2014</td>
+										<td>à definir</td>
+										<td>Fortaleza/CE</td>
+									</tr>
+									<tr>
+										<td>16/11/2014</td>
+										<td>à definir</td>
+										<td>Governador Valadares/MG</td>
+									</tr>
+									<tr>
+										<td>15/11/2014</td>
+										<td>à definir</td>
+										<td>Vila Velha/ES</td>
+									</tr>	
+									<tr>
+										<td>14/11/2014</td>
+										<td>à definir</td>
+										<td>Nova Friburgo/RJ</td>
+									</tr>
+									<tr>
+										<td>13/11/2014</td>
+										<td>à definir</td>
+										<td>Rio De Janeiro/RJ</td>
+									</tr>
+									<tr> 
+										<td>09/11/2014</td>
+										<td>à definir</td>
+										<td>São Paulo/SP</td>
+									</tr>																																										
+									<tr>
+										<td>06/11/2014</td>
+										<td>à definir</td>
+										<td>Barueri/SP</td>
+									</tr>									
+									<tr>
 										<td>24/07/2014</td>
 										<td>Anime Friends</td>
 										<td>Sao Paulo/SP</td>
@@ -119,6 +194,7 @@
 										<td>Blackmore Rock Bar + Pocket Show</td>
 										<td>São Paulo/SP</td>
 									</tr>
+									
 								</tbody>
 							</table>
 						</div>
