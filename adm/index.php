@@ -1,18 +1,7 @@
 <?php
-require_once ('../config/connection.php');
-if (!isset($_SESSION)) {
+	require_once ('../config/connection.php');
 	session_start();
-}
-$query = "SELECT dts_date, dts_local, dts_city_state
-FROM dates
-WHERE dts_active = 1
-ORDER BY dts_id desc";
-mysql_select_db('noturnall');
-$result = mysql_query($query);
-$rows = array();
-while ($row = mysql_fetch_assoc($result)) {
-	array_push($rows, $row);
-}
+	session_destroy();
 ?>
 <!DOCTYPE html>
 <html>
@@ -32,43 +21,27 @@ while ($row = mysql_fetch_assoc($result)) {
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12">
-				<?php
-				if($con){
-					echo "<p>Banco de dados conectado com sucesso !!!</p>";
-				}else{
-					echo "<p>Erro ao estabelecer a conexão com a base de dados!</p>";
-				}
-				?>
 				<h1>Painel Adm - Noturnall</h1>
-				<a href="/adm/new.php" class="btn btn-primary">Nova data</a>
-				<h3>Datas cadastradas</h3>
-				<table class="table table-bordered table-condensed">
-					<thead>
-						<tr>
-							<th>Data</th>
-							<th>Local</th>
-							<th>Cidade/Estado</th>
-						</tr>
-					</thead>
-					<tbody>
-						<?php foreach($rows as $key => $val){
-							echo "
-							<tr>
-								<td>{$val['dts_date']}</td>
-								<td>{$val['dts_local']}</td>
-								<td>{$val['dts_city_state']}</td>
-							</tr>";
-						}
-						?>
-					</tbody>
-				</table>
+				<form action="valida.php" method="post" role="form">
+					<div class="row">
+						<div class="form-group col-lg-4">
+							<label for="form-user">Usuário</label>
+							<input type="text" name="form-user" class="form-control">
+							<label for="form-pass">Senha</label>
+							<input type="password" name="form-pass" class="form-control">
+							<br>
+							<input type="submit" class="btn btn-primary" value="Entrar">
+						</div>
+						<div class="col-lg-8"></div>
+					</div>
+				</form>
 			</div>
 		</div>
 	</div>
 
 	<div id="footer">
 		<div class="container">
-			<p class="text-center">Noturnall &copy 2014 - All Rights Reserved - Developed by <a href="http://www.pamellagaiguer.com" target="_blank">Pamella Gaiguer</a></p>
+			<p class="text-left">Noturnall &copy 2014 - All Rights Reserved - Developed by <a href="http://www.pamellagaiguer.com" target="_blank">Pamella Gaiguer</a></p>
 		</div>
 	</div>
 	<script src="js/jquery-2.1.0.min.js"></script>
