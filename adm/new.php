@@ -39,29 +39,32 @@ while ($row = mysql_fetch_assoc($result)) {
 					echo "<p>Erro ao estabelecer a conexão com a base de dados!</p>";
 				}
 				?>
-				<h1>Painel Adm - Noturnall</h1>
-				<a href="/adm/new.php" class="btn btn-primary">Nova data</a>
-				<h3>Datas cadastradas</h3>
-				<table class="table table-bordered table-condensed">
-					<thead>
-						<tr>
-							<th>Data</th>
-							<th>Local</th>
-							<th>Cidade/Estado</th>
-						</tr>
-					</thead>
-					<tbody>
-						<?php foreach($rows as $key => $val){
-							echo "
-							<tr>
-								<td>{$val['dts_date']}</td>
-								<td>{$val['dts_local']}</td>
-								<td>{$val['dts_city_state']}</td>
-							</tr>";
-						}
-						?>
-					</tbody>
-				</table>
+				<h1>Painel Adm - Cadastrar nova data</h1>
+				<a href="index.php" class="btn btn-primary">Voltar</a>
+				<br><br>
+				<form action="" method="post" role="form">
+					<div class="row">
+						<div class="col-lg-4">
+							<div class="form-group">
+								<label for="form-date">Data</label>
+								<input type="text" class="form-control" name="form-date">
+							</div>
+						</div>
+						<div class="col-lg-4">
+							<div class="form-group">
+								<label for="form-local">Local</label>
+								<input type="text" class="form-control" name="form-local">
+							</div>
+						</div>
+						<div class="col-lg-4">
+							<div class="form-group">
+								<label for="form-city">Cidade/Estado</label>
+								<input type="text" class="form-control" name="form-city">
+							</div>
+						</div>
+					</div>
+					<input type="submit" class="btn btn-primary" value="Cadastrar">
+				</form>
 			</div>
 		</div>
 	</div>
