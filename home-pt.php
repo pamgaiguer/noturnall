@@ -106,27 +106,27 @@
 								</tr>
 								<tr>
 									<td>30/11/2014</td>
-									<td>à definir</td>
+									<td>Groove Bar</td>
 									<td>Salvador/BA</td>
 								</tr>
 								<tr>
 									<td>29/11/2014</td>
-									<td>à definir</td>
+									<td>Casa do Comércio</td>
 									<td>Irecê/BA</td>
 								</tr>
 								<tr>
 									<td>28/11/2014</td>
-									<td>à definir</td>
+									<td>Clube 2 de Janeiro</td>
 									<td>Jacobina/BA</td>
 								</tr>
 								<tr>
 									<td>27/11/2014</td>
-									<td>à definir</td>
+									<td>Teatro do SESC</td>
 									<td>Caruaru/PE</td>
 								</tr>
 								<tr>
 									<td>26/11/2014</td>
-									<td>à definir</td>
+									<td>Armazem Cultural</td>
 									<td>João Pessoa/SP</td>
 								</tr>
 								<tr>
@@ -136,7 +136,7 @@
 								</tr>
 								<tr>
 									<td>22/11/2014</td>
-									<td>à definir</td>
+									<td>Festival Roots Rock Reggae</td>
 									<td>Fortaleza/CE</td>
 								</tr>
 								<tr>
@@ -145,38 +145,33 @@
 									<td>Quixadá/CE</td>
 								</tr>
 								<tr>
-									<td>20/11/2014</td>
-									<td>à definir</td>
-									<td>Fortaleza/CE</td>
-								</tr>
-								<tr>
 									<td>16/11/2014</td>
-									<td>à definir</td>
+									<td>Oficina's Pub</td>
 									<td>Governador Valadares/MG</td>
 								</tr>
 								<tr>
 									<td>15/11/2014</td>
-									<td>à definir</td>
+									<td>Correria Music Bar</td>
 									<td>Vila Velha/ES</td>
 								</tr>
 								<tr>
 									<td>14/11/2014</td>
-									<td>à definir</td>
+									<td>Evoke</td>
 									<td>Nova Friburgo/RJ</td>
 								</tr>
 								<tr>
 									<td>13/11/2014</td>
-									<td>à definir</td>
+									<td>Rio Rock & Blues Music Bar</td>
 									<td>Rio De Janeiro/RJ</td>
 								</tr>
 								<tr>
 									<td>09/11/2014</td>
-									<td>à definir</td>
+									<td>Aquarius Rock Bar</td>
 									<td>São Paulo/SP</td>
 								</tr>
 								<tr>
 									<td>06/11/2014</td>
-									<td>à definir</td>
+									<td>Jack Music Pub</td>
 									<td>Barueri/SP</td>
 								</tr>
 								<tr>
