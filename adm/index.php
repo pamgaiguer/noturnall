@@ -94,7 +94,6 @@ mysql_select_db($banco,$con);
 			</div>
 		</div>
 	</div>
-
 	<div id="footer">
 		<div class="container">
 			<p class="text-left">Noturnall &copy 2014 - All Rights Reserved - Developed by <a href="http://www.pamellagaiguer.com" target="_blank">Pamella Gaiguer</a></p>
