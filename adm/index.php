@@ -1,34 +1,73 @@
+<?php
+$query = "SELECT dts_date, dts_local, dts_city_state FROM dates WHERE dts_active = 1";
+	mysql_select_db('noturnall');
+	$result = mysql_query($query);
+	$rows = array();
+	while ($row = mysql_fetch_assoc($result)) {
+		array_push($rows, $row);
+	}
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
 	<?php include '../config/connection.php';?>
-	<?php
-	if($con){
-		echo "Banco de Dados Conectado com Sucesso !!!";
-	}else{
-		echo "Erro ao Estabelece a Conexão com a Base de Dados!";
-	}
-	?>
-	<?php include '../includes/_seo.php';?>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE10,chrome=1">
+	<title>Noturnall - Painel Administrativo</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
 <body>
-	<?php include '../includes/_menunav.php';?>
-	<div class="container">
-		<h1>Painel adm noturnall</h1>
-	</div>
+	<nav class="navbar navbar-inverse" role="navigation">
+		<div class="container-fluid">
+			<div class="navbar-header"><a class="navbar-brand" href="#">Noturnall</a></div>
+		</div>
+	</nav>
 	<div class="container">
 		<div class="row">
-			<div class="col-xs-12 col-md-7"></div>
-			<div class="col-xs-12 col-md-5"></div>
+			<div class="col-lg-12">
+				<?php
+				if($con){
+					echo "<p>Banco de Dados Conectado com Sucesso !!!</p>";
+				}else{
+					echo "<p>Erro ao Estabelece a Conexão com a Base de Dados!</p>";
+				}
+				?>
+				<h1>Painel Adm</h1>
+				<h3>Datas cadastradas</h3>
+				<table class="table table-bordered table-condensed">
+					<thead>
+						<tr>
+							<th>Data</th>
+							<th>Local</th>
+							<th>Cidade/Estado</th>
+						</tr>
+					</thead>
+					<tbody>
+					<?php foreach($rows as $key => $val){
+
+						echo "
+						<tr>
+							<td>{$val['dts_date']}</td>
+							<td>{$val['dts_local']}</td>
+							<td>{$val['dts_city_state']}</td>
+						</tr>";
+					}
+					?>
+					</tbody>
+				</table>
+
+
+			</div>
 		</div>
 	</div>
-	<br>
+
 	<div id="footer">
 		<div class="container">
-			<p class="text-center footer-all">Noturnall @ 2013 - All Rights Reserved - Website illustration by Carlos Fides (<a href="http://www.artside.com.br/" target="_blank">Artside Digital Studio</a>) and programming by <a href="http://www.pamellagaiguer.com" target="_blank">Pamella Gaiguer</a></p>
+			<p class="text-center">Noturnall &copy 2014 - All Rights Reserved - Developed by <a href="http://www.pamellagaiguer.com" target="_blank">Pamella Gaiguer</a></p>
 		</div>
 	</div>
-	<script src="../js/jquery-2.1.0.min.js"></script>
-	<script src="../js/bootstrap.min.js"></script>
+	<script src="js/jquery-2.1.0.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
 </body>
 </html>
