@@ -139,7 +139,7 @@
 								</tr>
 								<tr>
 									<td>23/11/2014</td>
-									<td>à definir</td>
+									<td>Clube Carcará</td>
 									<td>Mossoró/RN</td>
 								</tr>
 								<tr>
@@ -149,7 +149,7 @@
 								</tr>
 								<tr>
 									<td>21/11/2014</td>
-									<td>à definir</td>
+									<td>Insano Rock Festival</td>
 									<td>Quixadá/CE</td>
 								</tr>
 								<tr>
