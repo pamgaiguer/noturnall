@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<?php include 'config/connection.php';?>
+	<?php
+	// if($con){
+	// 	echo "Banco de Dados Conectado com Sucesso !!!";
+	// }else{
+	// 	echo "Erro ao Estabelece a Conexão com a Base de Dados!";
+	// }
+	?>
 	<?php include 'includes/_seo.php';?>
 </head>
 <body>
@@ -38,6 +46,12 @@
 				</div>
 				<div id="youtube-channel">
 					<img src="images/noturnall-simbolo.png"><span>CANAL NOTURNALL</span>
+					<div class="flex-video widescreen" style="margin: 0 auto; text-align:center">
+						<iframe width="560" height="315" src="//www.youtube.com/embed/etjQWAm84rw" frameborder="0" allowfullscreen class="center-block"></iframe>
+					</div>
+					<br>
+					<br>
+					<hr>
 					<div class="flex-video widescreen" style="margin: 0 auto; text-align: center;">
 						<iframe width="560" height="315" src="//www.youtube.com/embed/Uam-uWJq5fc" frameborder="0" allowfullscreen class="center-block"></iframe>
 					</div>
@@ -76,23 +90,8 @@
 							<tbody>
 								<tr>
 									<td>18/12/2014</td>
-									<td>Sala We Rock</td>
-									<td>Madrid/Spain</td>
-								</tr>
-								<tr>
-									<td>11/12/2014</td>
 									<td>Metal Point</td>
 									<td>Porto/Portugal</td>
-								</tr>
-								<tr>
-									<td>13/12/2014</td>
-									<td>Sala Utopia</td>
-									<td>Zaragoza/Spain</td>
-								</tr>
-								<tr>
-									<td>14/12/2014</td>
-									<td>Downi</td>
-									<td>Worblaufen/Switzerland</td>
 								</tr>
 								<tr>
 									<td>15/12/2014</td>
@@ -100,9 +99,29 @@
 									<td>Roeselare/Belgium</td>
 								</tr>
 								<tr>
-									<td>18/12/2014</td>
+									<td>14/12/2014</td>
+									<td>Downi</td>
+									<td>Worblaufen/Switzerland</td>
+								</tr>
+								<tr>
+									<td>13/12/2014</td>
+									<td>Sala Utopia</td>
+									<td>Zaragoza/Spain</td>
+								</tr>
+								<tr>
+									<td>12/12/2014</td>
+									<td>RCA Club</td>
+									<td>Lisboa/Portugal</td>
+								</tr>
+								<tr>
+									<td>11/12/2014</td>
 									<td>Metal Point</td>
 									<td>Porto/Portugal</td>
+								</tr>
+								<tr>
+									<td>10/12/2014</td>
+									<td>Sala We Rock</td>
+									<td>Madrid/Spain</td>
 								</tr>
 								<tr>
 									<td>30/11/2014</td>
