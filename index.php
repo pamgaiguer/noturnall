@@ -13,7 +13,7 @@
 		<link rel="stylesheet" href="css/typography.css"/>
 		<link rel="stylesheet" href="css/index.css"/>
 	</head>
-	<body class="index">		
+	<body class="index">
 		<div class="container">
 			<div class="row">
 			<div class="col-md-1 col-xs-12"> </div>
@@ -21,25 +21,25 @@
 			  	<div class="row">
 			  		<div class="col-md-3 col-xs-12"> </div>
 			  		<div class="col-md-6 col-xs-12">
-						<img src="images/index_nova3.png" id="img-home" class="img-responsive">
+						<img src="images/noturnall_dvd_baixa_edt.jpg" id="img-home" class="img-responsive">
 					</div>
 					<div class="col-md-3 col-xs-12"> </div>
 				</div>
-				<p id="title-home" class="text-center">NOTURNALL - NEW ALBUM // RELEASE: FEBRUARY 13TH, 2014 // AVAILABLE IN CD, LP AND MP3</p>
+				<p id="title-home" class="text-center">NOTURNALL - NEW DVD // FIRST NIGHT LIVE</p>
 				<div class="col-md-1 col-xs-12"> </div>
-								
+
 				<div class="row" id="flags">
 					<div class="col-md-3 col-xs-12"> </div>
 					<div class="col-md-6 col-xs-12">
 						<a href="home-pt.php"><figure><img src="images/icon-brazil.png" class="img-responsive"><figcaption>ENTRAR</figcaption></figure></a>
-						<a href="home-en.php"><figure><img src="images/icon-england.png" class="img-responsive"><figcaption>ENTER</figcaption></figure></a>						
+						<a href="home-en.php"><figure><img src="images/icon-england.png" class="img-responsive"><figcaption>ENTER</figcaption></figure></a>
 					</div>
 					<div class="col-md-3 col-xs-12"> </div>
 				</div>
-				
+
 			  </div>
-			</div>			
-		</div>		
+			</div>
+		</div>
 		<script src="js/jquery-2.1.0.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
 		<script>

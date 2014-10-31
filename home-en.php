@@ -309,10 +309,13 @@
 					<div id="merch-page">
 						<img src="images/noturnall-simbolo.png"><span>MERCHANDISE</span>
 						<br>
-						<a href="loja_en.php"><img src="images/tshirt01.jpg" class="img-responsive"></a>
-						<br>
-						<br>
-						<a href="loja_en.php"><img src="images/tshirt02.jpg" class="img-responsive"></a>
+						<a href="loja_en.php"><img src="images/merchan/camiseta_01_dvd_700.jpg" class="img-responsive"></a>
+						<br><br>
+						<a href="loja_en.php"><img src="images/merchan/canecas_700.jpg" height="545" width="700" class="img-responsive"></a>
+						<br><br>
+						<a href="loja_en.php"><img src="images/merchan/camiseta_02_fogo_700.jpg" class="img-responsive"></a>
+						<br><Br>
+						<a href="loja_en.php"><img src="images/merchan/camiseta_04_raven_700.jpg" class="img-responsive"></a>
 					</div>
 				</div>
 			</div>
