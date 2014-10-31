@@ -19,6 +19,8 @@
 						<li class="text-center"><a href="loja.php">Loja</a></li>
 						<li class="divider-vertical"></li>
 						<li class="text-center"><a href="contato.php">Contato</a></li>
+						<li class="divider-vertical"></li>
+						<li class="text-center"><a href="tour_dates.php">Tour Dates</a></li>
 					</ul>
 				</div>
 			</div>

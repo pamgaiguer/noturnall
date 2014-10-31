@@ -13,12 +13,14 @@
 						<li class="text-center"><a href="home-en.php">Home</a></li>
 						<li class="divider-vertical"></li>
 						<li class="text-center"><a href="integrantes_en.php">Members</a></li>
-						<li class="divider-vertical"></li>						
+						<li class="divider-vertical"></li>
 						<li class="text-center"><a href="banda_en.php">The Band</a></li>
 						<li class="divider-vertical"></li>
 						<li class="text-center"><a href="loja_en.php">Store</a></li>
 						<li class="divider-vertical"></li>
 						<li class="text-center"><a href="contato_en.php">Contact</a></li>
+						<li class="divider-vertical"></li>
+						<li class="text-center"><a href="tour_dates_en.php">Tour Dates</a></li>
 					</ul>
 				</div>
 			</div>

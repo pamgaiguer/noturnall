@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<?php include 'includes/_seo.php'?>
+		<?php include 'includes/_seo.php';?>
 	</head>
 
 	<body>
-		<?php include 'includes/_menunav.php'?>
+		<?php include 'includes/_menunav.php';?>
 		<div class="container">
 			<img id="responsive-band" src="images/photo_topo.png" class="img-responsive">
 			</div>
-			<div class="jumbotron"> </div>	
-			  
+			<div class="jumbotron"> </div>
+
 			<div class="container">
 				<div class="row">
 					<div class="col-xs-12 col-md-7">
@@ -27,26 +27,13 @@
 						<p>Official Audio and Video Studios: Fusão VM&T - <a href="http://www.fusaoestudios.com.br" target="_blank">www.fusaoestudios.com.br</a> / <a href="http://www.facebook.com/estudiofusao" target="_blank">www.facebook.com/estudiofusao</a> e Foggy: <a href="http://www.foggyfilmes.com">www.foggyfilmes.com</a></p><br>
 						<p>Official Photo Team: Woody Studio - <A href="mailto:woody@studiowoody.com.br">woody@studiowoody.com.br</A> and Rafael Benitez Studios - <a href="mailto:contato@treearts.com">contato@treearts.com</a></p><br>
 						<p>Official WebDesigner: Pamella Gaiguer - <a href="mailto:pamella.gaiguer@gmail.com">pamella.gaiguer@gmail.com</a> e <a href="http://www.pamellagaiguer.com">http://www.pamellagaiguer.com</a></p><br>
-						<p>Official Artworks: Carlos Fides from Artside Digital Studio - <a href="mailto:artside.contatos@gmail.com">artside.contatos@gmail.com</a> </p><br>						
-						</div>						
+						<p>Official Artworks: Carlos Fides from Artside Digital Studio - <a href="mailto:artside.contatos@gmail.com">artside.contatos@gmail.com</a> </p><br>
+						</div>
 
 					</div>
 				</div>
 			</div>
-		<br>
-		<div id="footer">
-			<div class="container">
-				<p class="text-center footer-all">Noturnall @ 2013 - All Rights Reserved - Website illustration by Carlos Fides (<a href="http://www.artside.com.br/" target="_blank">Artside Digital Studio</a>) and programming by <a href="http://www.pamellagaiguer.com" target="_blank">Pamella Gaiguer</a></p>
-			</div>
-		</div>		
-		
-		<footer>
-			<div class="footer-all">
-				<p>
-					
-				</p>
-			</div>
-		</footer>
+	<?php include 'includes/_footer.php';?>
 		<script src="js/jquery-2.1.0.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
 		<script>

@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<?php include 'includes/_seo.php'?>
+		<?php include 'includes/_seo.php';?>
 	</head>
 
 	<body>
-	<?php include 'includes/_menunav.php'?>
+	<?php include 'includes/_menunav.php';?>
 		<div class="container">
 			<img id="responsive-band" src="images/photo_topo.png" class="img-responsive">
 			</div>
-			<div class="jumbotron"> </div>	
-			  
+			<div class="jumbotron"> </div>
+
 			<div class="container">
 				<div class="row">
 					<div class="col-xs-12 col-md-7">
@@ -73,35 +73,23 @@
 							Calçada da Fama do Rock Brasileiro, a “RockWalk”, que já conta com nomes do calibre
 							de Erasmo Carlos, Roberto Carlos, Ronnie Von, Sepultura e até o próprio Shaman.</p>
 							<p>O Noturnall definitivamente chegou para ser uma das maiores bandas de heavy metal
-							do Brasil de todos os tempos! E não há mais volta!</p>							
+							do Brasil de todos os tempos! E não há mais volta!</p>
 							<img src="images/Noturnall2-low.jpg" alt="noturnall" class="img-responsive">
-						</div>						
+						</div>
 					</div>
-					<div class="col-xs-12 col-md-5">			
+					<div class="col-xs-12 col-md-5">
 						<div>
 						<img src="images/band-thiago-low.jpg" class="img-responsive"><br>
 						<img src="images/band-leo-low.jpg" class="img-responsive"><br>
 						<img src="images/band-juninho-low.jpg" class="img-responsive"><br>
 						<img src="images/band-fernando-low.jpg" class="img-responsive"><br>
 						<img src="images/band-aquiles-low.jpg" class="img-responsive">
-						</div>				
+						</div>
 					</div>
 				</div>
 			</div>
 		<br>
-		<div id="footer">
-			<div class="container">
-				<p class="text-center footer-all">Noturnall @ 2013 - All Rights Reserved - Website illustration by Carlos Fides (<a href="http://www.artside.com.br/" target="_blank">Artside Digital Studio</a>) and programming by <a href="http://www.pamellagaiguer.com" target="_blank">Pamella Gaiguer</a></p>
-			</div>
-		</div>		
-		
-		<footer>
-			<div class="footer-all">
-				<p>
-					
-				</p>
-			</div>
-		</footer>
+	<?php include 'includes/_footer.php';?>
 		<script src="js/jquery-2.1.0.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
 		<script>
