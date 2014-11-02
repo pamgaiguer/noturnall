@@ -12,14 +12,14 @@ a, a:hover, a:visited, a:link{
 	color: #bb9861;
 }
 #last-news p, #youtube-channel p, #tour-dates p, #facebook-page p, #info-album p, #cd-lancamento p, #merch-page p{
-	color: #8d7c61; 	
+	color: #8d7c61;
 }
 #last-news figure img{
 	float: left;
-	padding: 0px 5px 0px 0px;	
+	padding: 0px 5px 0px 0px;
 }
 #last-news figure p{
-	font-size: 14px;	
+	font-size: 14px;
 }
 #cd-lancamento span{
 	color: #f5b576;
@@ -38,14 +38,14 @@ a, a:hover, a:visited, a:link{
 }
 #tour-dates thead th{
 	color: #bb9861;
-	padding: 5px; 
+	padding: 5px;
 }
 #tour-dates tbody tr td{
 	color: #8D7C61;
 	padding: 5px;
 }
 #band-bios {
-	width: 990px;	
+	width: 990px;
 }
 #cd-lancamento p{
 	font-size: 12px;
@@ -60,7 +60,7 @@ a, a:hover, a:visited, a:link{
 	color: #f5b576;
 	letter-spacing: 3px;
 	border: 1px solid;
-	padding: 5px;	
+	padding: 5px;
 }
 #bio-names span a:hover{
 	cursor:pointer;
@@ -68,8 +68,8 @@ a, a:hover, a:visited, a:link{
 }
 @media (min-device-width : 320px) and (max-device-width : 568px) {
 	#bio-names span a{
-	display: block;	
-	}	
+	display: block;
+	}
 }
 #tbianchi, #lmancini, #fquesada, #apriester, #jcarelli{
 	display: none;
@@ -93,23 +93,14 @@ a, a:hover, a:visited, a:link{
 /*--------------- Loja ----------------*/
 .loja p{
 	font-size: 20px;
-	color: #f5b576;
-	font-family: 'TranjanPro';	
+	color: #f1dfb6;;
+	font-family: 'TranjanPro';
 	letter-spacing: 3px;
-}
-.loja ul li{
-	font-size: 16px;
-	color: #f5b576;	
-	letter-spacing: 3px;	
 }
 .loja figure figcaption{
 	text-align: center;
-	color: #f5b576;
-	font-family: 'TranjanPro';	
-}
-#loja-shirts{
-	background: rgba(0,0,0,0.58);
-	border-radius:8px;
+	color: #f1dfb6;;
+	font-family: 'TranjanPro';
 }
 /*---------------------------------- banda all ----------------------*/
 #release-band p{

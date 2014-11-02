@@ -191,7 +191,7 @@
 								<tr>
 									<td>06/11/2014</td>
 									<td>Jack Music Pub</td>
-									<td>Barueri/SP</td>
+									<td>Bauru/SP</td>
 								</tr>
 								<tr>
 									<td>24/07/2014</td>
@@ -294,7 +294,14 @@
 						<br>
 						<a href="loja.php"><img src="images/capa-cd.jpg" class="img-responsive"></a>
 						<br>
-						<p class="text-center">Lançamento mundial: Fevereiro/2014</p>
+						<hr>
+						<img src="images/noturnall-simbolo.png"><span>NOVO DVD</span>
+						<br>
+						<a href="loja.php"><img src="images/noturnall_dvd_baixa_edt.jpg" class="img-responsive"></a>
+						<hr>
+						<img src="images/noturnall-simbolo.png"><span>NOVO LP</span>
+						<br>
+						<a href="loja.php"><img src="images/noturnall_capa_vinil.JPG" class="img-responsive"></a>
 					</div>
 					<hr>
 					<div id="icons-page">
