@@ -102,6 +102,13 @@ a, a:hover, a:visited, a:link{
 	color: #f1dfb6;;
 	font-family: 'TranjanPro';
 }
+/*--------------------- Tour dates --------------------*/
+.tour-dates p{
+	font-size: 20px;
+	color: #f1dfb6;;
+	font-family: 'TranjanPro';
+	letter-spacing: 3px;
+}
 /*---------------------------------- banda all ----------------------*/
 #release-band p{
 	color: #8d7c61;
