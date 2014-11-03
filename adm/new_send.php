@@ -1,27 +1,29 @@
 <?php
-require 'connection.php';
-
-session_start();
-
 $data = $_POST['form-date'];
 $local = $_POST['form-local'];
 $city = $_POST['form-city'];
 
-if (!$con)
-	die ("Erro de conexão com localhost, o seguinte erro ocorreu -> ".mysql_error());
-//conectando com a tabela do banco de dados
-$banco = mysql_select_db($banco,$con);
-if (!$banco)
-	die ("Erro de conexão com banco de dados, o seguinte erro ocorreu -> ".mysql_error());
+$servername = "dbmy0102.whservidor.com";
+$username = "noturnall";
+$password = "1q2w3e4r";
+$dbname = "noturnall";
 
-$query = "INSERT INTO 'dates'('dts_date', 'dts_local', 'dts_city_state', 'dts_active', 'dts_record_by')
-VALUES ($data, $local, $city, '1', '1')";
+// Create connection
+$conn = mysqli_connect($servername, $username, $password, $dbname);
+// Check connection
+if (!$conn) {
+    die("Connection failed: " . mysqli_connect_error());
+}
+$sql = "INSERT INTO dates (dts_date, dts_local, dts_city_state, dts_active, dts_record_by)
+VALUES ('$data', '$local', '$city', 1, 1)";
 
-mysql_query($query,$con);
+if (mysqli_query($conn, $sql)) {
+    echo "Novo registro inserido na base de dados<br>";
+} else {
+    echo "Error: " . $sql . "<br>" . mysqli_error($conn);
+}
 
-echo "data: {$data} <br>";
-echo "local: $local <br>";
-echo "cidade: $city <br>";
+mysqli_close($conn);
 
 ?>
 <!DOCTYPE html>

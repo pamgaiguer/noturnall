@@ -2,13 +2,6 @@
 <html>
 <head>
 	<?php include 'config/connection.php';?>
-	<?php
-	// if($con){
-	// 	echo "Banco de Dados Conectado com Sucesso !!!";
-	// }else{
-	// 	echo "Erro ao Estabelece a Conexão com a Base de Dados!";
-	// }
-	?>
 	<?php include 'includes/_seo.php';?>
 </head>
 <body>
