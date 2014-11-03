@@ -3,9 +3,9 @@ require 'connection.php';
 
 session_start();
 
-$data = isset($_POST['form-date']);
-$local = isset($_POST['form-local']);
-$city = isset($_POST['form-city']);
+$data = $_POST['form-date'];
+$local = $_POST['form-local'];
+$city = $_POST['form-city'];
 
 if (!$con)
 	die ("Erro de conexão com localhost, o seguinte erro ocorreu -> ".mysql_error());
@@ -14,14 +14,14 @@ $banco = mysql_select_db($banco,$con);
 if (!$banco)
 	die ("Erro de conexão com banco de dados, o seguinte erro ocorreu -> ".mysql_error());
 
-$query = "INSERT INTO 'dates' ('dts_date', 'dts_local', 'dts_city_state', 'dts_active', 'dts_record_by')
-	VALUES ({$data}, {$local}, {$city}, '1', '1')";
-mysql_query($query,$con);
-mysql_query(mysql_error());
+$query = "INSERT INTO 'dates'('dts_date', 'dts_local', 'dts_city_state', 'dts_active', 'dts_record_by')
+VALUES ($data, $local, $city, '1', '1')";
 
-echo "data: $data";
-echo "local: $local";
-echo "cidade: $city";
+mysql_query($query,$con);
+
+echo "data: {$data} <br>";
+echo "local: $local <br>";
+echo "cidade: $city <br>";
 
 ?>
 <!DOCTYPE html>
