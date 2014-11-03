@@ -1,14 +1,25 @@
+<?php
+require_once ('config/connection.php');
+	if (!isset($_SESSION)) {
+		session_start();
+	}
+
+$query = "SELECT dts_date, dts_local, dts_city_state
+	FROM dates
+	WHERE dts_active = 1
+	ORDER BY dts_id desc";
+	mysql_select_db('noturnall');
+
+	$result = mysql_query($query);
+
+	$rows = array();
+	while ($row = mysql_fetch_assoc($result)) {
+		array_push($rows, $row);
+	}
+?>
 <!DOCTYPE html>
 <html>
 <head>
-	<?php include 'config/connection.php';?>
-	<?php
-	// if($con){
-	// 	echo "Banco de Dados Conectado com Sucesso !!!";
-	// }else{
-	// 	echo "Erro ao Estabelece a Conexão com a Base de Dados!";
-	// }
-	?>
 	<?php include 'includes/_seo.php';?>
 </head>
 <body>
@@ -88,156 +99,15 @@
 								<th class="text-center">Cidade</th>
 							</thead>
 							<tbody>
-								<tr>
-									<td>18/12/2014</td>
-									<td>Metal Point</td>
-									<td>Porto/Portugal</td>
-								</tr>
-								<tr>
-									<td>15/12/2014</td>
-									<td>De Verlichte Geest</td>
-									<td>Roeselare/Belgium</td>
-								</tr>
-								<tr>
-									<td>14/12/2014</td>
-									<td>Downi</td>
-									<td>Worblaufen/Switzerland</td>
-								</tr>
-								<tr>
-									<td>13/12/2014</td>
-									<td>Sala Utopia</td>
-									<td>Zaragoza/Spain</td>
-								</tr>
-								<tr>
-									<td>12/12/2014</td>
-									<td>RCA Club</td>
-									<td>Lisboa/Portugal</td>
-								</tr>
-								<tr>
-									<td>11/12/2014</td>
-									<td>Metal Point</td>
-									<td>Porto/Portugal</td>
-								</tr>
-								<tr>
-									<td>10/12/2014</td>
-									<td>Sala We Rock</td>
-									<td>Madrid/Spain</td>
-								</tr>
-								<tr>
-									<td>30/11/2014</td>
-									<td>Groove Bar</td>
-									<td>Salvador/BA</td>
-								</tr>
-								<tr>
-									<td>29/11/2014</td>
-									<td>Casa do Comércio</td>
-									<td>Irecê/BA</td>
-								</tr>
-								<tr>
-									<td>28/11/2014</td>
-									<td>Clube 2 de Janeiro</td>
-									<td>Jacobina/BA</td>
-								</tr>
-								<tr>
-									<td>27/11/2014</td>
-									<td>Teatro do SESC</td>
-									<td>Caruaru/PE</td>
-								</tr>
-								<tr>
-									<td>26/11/2014</td>
-									<td>Armazem Cultural</td>
-									<td>João Pessoa/SP</td>
-								</tr>
-								<tr>
-									<td>23/11/2014</td>
-									<td>Clube Carcará</td>
-									<td>Mossoró/RN</td>
-								</tr>
-								<tr>
-									<td>22/11/2014</td>
-									<td>Festival Roots Rock Reggae</td>
-									<td>Fortaleza/CE</td>
-								</tr>
-								<tr>
-									<td>21/11/2014</td>
-									<td>Insano Rock Festival</td>
-									<td>Quixadá/CE</td>
-								</tr>
-								<tr>
-									<td>16/11/2014</td>
-									<td>Oficina's Pub</td>
-									<td>Governador Valadares/MG</td>
-								</tr>
-								<tr>
-									<td>15/11/2014</td>
-									<td>Correria Music Bar</td>
-									<td>Vila Velha/ES</td>
-								</tr>
-								<tr>
-									<td>14/11/2014</td>
-									<td>Evoke</td>
-									<td>Nova Friburgo/RJ</td>
-								</tr>
-								<tr>
-									<td>13/11/2014</td>
-									<td>Rio Rock & Blues Music Bar</td>
-									<td>Rio De Janeiro/RJ</td>
-								</tr>
-								<tr>
-									<td>09/11/2014</td>
-									<td>Aquarius Rock Bar</td>
-									<td>São Paulo/SP</td>
-								</tr>
-								<tr>
-									<td>06/11/2014</td>
-									<td>Jack Music Pub</td>
-									<td>Bauru/SP</td>
-								</tr>
-								<tr>
-									<td>24/07/2014</td>
-									<td>Anime Friends</td>
-									<td>Sao Paulo/SP</td>
-								</tr>
-								<tr>
-									<td>13/07/2014</td>
-									<td>Calçadão Central</td>
-									<td>Osasco/SP</td>
-								</tr>
-								<tr>
-									<td>12/07/2014</td>
-									<td>Bar Aquarius + Almah</td>
-									<td>Sao Paulo/SP</td>
-								</tr>
-								<tr>
-									<td>11/07/2014</td>
-									<td>Bar da Montanha</td>
-									<td>Limeira/SP</td>
-								</tr>
-								<tr>
-									<td>16/05/2014</td>
-									<td>Pirilampus Bar (Ingresso + CD)</td>
-									<td>Sorocaba/SP</td>
-								</tr>
-								<tr>
-									<td>09/05/2014</td>
-									<td>Life Club + Sepultura</td>
-									<td>Florianópolis/SC</td>
-								</tr>
-								<tr>
-									<td>24/04/2014</td>
-									<td>Assinatura Rock Walk Brazil + Pocket Show + Shopping Nações</td>
-									<td>Limeira/SP</td>
-								</tr>
-								<tr>
-									<td>29/03/2014</td>
-									<td>Carioca Club + Russell Allen + DVD Shooting</td>
-									<td>São Paulo/SP</td>
-								</tr>
-								<tr>
-									<td>21/12/2013</td>
-									<td>Blackmore Rock Bar + Pocket Show</td>
-									<td>São Paulo/SP</td>
-								</tr>
+								<?php foreach($rows as $key => $val){
+									echo "
+									<tr>
+										<td>{$val['dts_date']}</td>
+										<td>{$val['dts_local']}</td>
+										<td>{$val['dts_city_state']}</td>
+									</tr>";
+								}
+								?>
 							</tbody>
 						</table>
 					</div>

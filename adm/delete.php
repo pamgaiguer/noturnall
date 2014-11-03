@@ -1,18 +1,8 @@
 <?php
-require_once ('../config/connection.php');
-if (!isset($_SESSION)) {
-	session_start();
-}
-$query = "SELECT dts_date, dts_local, dts_city_state
-FROM dates
-WHERE dts_active = 1
-ORDER BY dts_id desc";
-mysql_select_db('noturnall');
-$result = mysql_query($query);
-$rows = array();
-while ($row = mysql_fetch_assoc($result)) {
-	array_push($rows, $row);
-}
+require 'connection.php';
+
+session_start();
+
 ?>
 <!DOCTYPE html>
 <html>
@@ -39,30 +29,32 @@ while ($row = mysql_fetch_assoc($result)) {
 					echo "<p>Erro ao estabelecer a conexão com a base de dados!</p>";
 				}
 				?>
-				<h1>Painel Adm - Noturnall</h1>
-				<a href="/adm/new.php" class="btn btn-primary">Nova data</a>
-				<a href="/adm/delete.php" class="btn btn-danger">Excluir data</a>
-				<h3>Datas cadastradas</h3>
-				<table class="table table-bordered table-condensed">
-					<thead>
-						<tr>
-							<th>Data</th>
-							<th>Local</th>
-							<th>Cidade/Estado</th>
-						</tr>
-					</thead>
-					<tbody>
-						<?php foreach($rows as $key => $val){
-							echo "
-							<tr>
-								<td>{$val['dts_date']}</td>
-								<td>{$val['dts_local']}</td>
-								<td>{$val['dts_city_state']}</td>
-							</tr>";
-						}
-						?>
-					</tbody>
-				</table>
+				<h1>Painel Adm - Cadastrar nova data</h1>
+				<a href="home.php" class="btn btn-primary">Voltar</a>
+				<br><br>
+				<form action="new_send.php" method="post" role="form">
+					<div class="row">
+						<div class="col-lg-4">
+							<div class="form-group">
+								<label for="data">Data</label>
+								<input type="text" class="form-control" name="form-date" required>
+							</div>
+						</div>
+						<div class="col-lg-4">
+							<div class="form-group">
+								<label for="local">Local</label>
+								<input type="text" class="form-control" name="form-local" required>
+							</div>
+						</div>
+						<div class="col-lg-4">
+							<div class="form-group">
+								<label for="city">Cidade/Estado</label>
+								<input type="text" class="form-control" name="form-city" required>
+							</div>
+						</div>
+					</div>
+					<input type="submit" class="btn btn-primary" value="Cadastrar">
+				</form>
 			</div>
 		</div>
 	</div>
