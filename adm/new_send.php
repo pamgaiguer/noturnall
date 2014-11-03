@@ -17,6 +17,11 @@ if (!$banco)
 $query = "INSERT INTO 'dates' ('dts_date', 'dts_local', 'dts_city_state', 'dts_active', 'dts_record_by')
 	VALUES ({$data}, {$local}, {$city}, '1', '1')";
 mysql_query($query,$con);
+mysql_query(mysql_error());
+
+echo "data: $data";
+echo "local: $local";
+echo "cidade: $city";
 
 ?>
 <!DOCTYPE html>
@@ -44,36 +49,11 @@ mysql_query($query,$con);
 					echo "<p>Erro ao estabelecer a conexão com a base de dados!</p>";
 				}
 				?>
-				<h1>Painel Adm - Cadastrar nova data</h1>
-				<a href="home.php" class="btn btn-primary">Voltar</a>
-				<br><br>
-				<form action="new_send.php" method="post" role="form">
-					<div class="row">
-						<div class="col-lg-4">
-							<div class="form-group">
-								<label for="form-date">Data</label>
-								<input type="text" class="form-control" name="form-date" required>
-							</div>
-						</div>
-						<div class="col-lg-4">
-							<div class="form-group">
-								<label for="form-local">Local</label>
-								<input type="text" class="form-control" name="form-local" required>
-							</div>
-						</div>
-						<div class="col-lg-4">
-							<div class="form-group">
-								<label for="form-city">Cidade/Estado</label>
-								<input type="text" class="form-control" name="form-city" required>
-							</div>
-						</div>
-					</div>
-					<input type="submit" class="btn btn-primary" value="Cadastrar">
-				</form>
+				<h1>Painel Adm - Data cadastrada com sucesso</h1>
+				<a href="new.php" class="btn btn-primary">Voltar</a>
 			</div>
 		</div>
 	</div>
-
 	<div id="footer">
 		<div class="container">
 			<p class="text-center">Noturnall &copy 2014 - All Rights Reserved - Developed by <a href="http://www.pamellagaiguer.com" target="_blank">Pamella Gaiguer</a></p>

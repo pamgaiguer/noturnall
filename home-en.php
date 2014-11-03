@@ -291,16 +291,16 @@
 					<div id="info-album">
 						<img src="images/noturnall-simbolo.png"><span>NEW ALBUM</span>
 						<br>
-						<a href="loja.php"><img src="images/capa-cd.jpg" class="img-responsive"></a>
+						<a href="loja_en.php"><img src="images/capa-cd.jpg" class="img-responsive"></a>
 						<br>
 						<hr>
 						<img src="images/noturnall-simbolo.png"><span>NEW DVD</span>
 						<br>
-						<a href="loja.php"><img src="images/noturnall_dvd_baixa_edt.jpg" class="img-responsive"></a>
+						<a href="loja_en.php"><img src="images/noturnall_dvd_baixa_edt.jpg" class="img-responsive"></a>
 						<hr>
 						<img src="images/noturnall-simbolo.png"><span>NEW LP</span>
 						<br>
-						<a href="loja.php"><img src="images/noturnall_capa_vinil.JPG" class="img-responsive"></a>
+						<a href="loja_en.php"><img src="images/noturnall_capa_vinil.JPG" class="img-responsive"></a>
 					</div>
 					<hr>
 					<div id="icons-page">

@@ -317,13 +317,13 @@
 					<div id="merch-page">
 						<img src="images/noturnall-simbolo.png"><span>MERCHANDISE</span>
 						<br>
-						<a href="loja_en.php"><img src="images/merchan/camiseta_03_zumbi_700.jpg" class="img-responsive"></a>
+						<a href="loja.php"><img src="images/merchan/camiseta_03_zumbi_700.jpg" class="img-responsive"></a>
 						<br><br>
-						<a href="loja_en.php"><img src="images/merchan/canecas_700.jpg" class="img-responsive"></a>
+						<a href="loja.php"><img src="images/merchan/canecas_700.jpg" class="img-responsive"></a>
 						<br><br>
-						<a href="loja_en.php"><img src="images/merchan/camiseta_05_swamp_700.jpg" class="img-responsive"></a>
+						<a href="loja.php"><img src="images/merchan/camiseta_05_swamp_700.jpg" class="img-responsive"></a>
 						<br><Br>
-						<a href="loja_en.php"><img src="images/merchan/camiseta_02_fogo_700.jpg" class="img-responsive"></a>
+						<a href="loja.php"><img src="images/merchan/camiseta_02_fogo_700.jpg" class="img-responsive"></a>
 					</div>
 				</div>
 			</div>
