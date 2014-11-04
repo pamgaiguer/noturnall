@@ -12,7 +12,7 @@
 		<div class="row">
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 				<div class="tour-dates">
-					<p class="text-left">Tour posters from Noturnall's concerts</p>
+					<p class="text-left">Posters dos próximos shows do Noturnall</p>
 					<a href="#" data-toggle="modal" data-target="#cartaz01">
 						<img src="images/tourdates/1106_Bauru.JPG" width="180">
 					</a>
@@ -30,6 +30,9 @@
 					</a>
 					<a href="#" data-toggle="modal" data-target="#cartaz06">
 						<img src="images/tourdates/1116_governador-valadares.jpg" width="180">
+					</a>
+					<a href="#" data-toggle="modal" data-target="#cartaz19">
+						<img src="images/tourdates/1121_Quixada.png" width="180">
 					</a>
 					<a href="#" data-toggle="modal" data-target="#cartaz07">
 						<img src="images/tourdates/1122_fortaleza.jpg" width="180">
@@ -348,6 +351,22 @@
 					</div>
 					<div class="modal-body">
 						<img src="images/tourdates/1215_Belgica.jpg" class="img-responsive">
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">fechar</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="modal fade" id="cartaz19" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+					</div>
+					<div class="modal-body">
+						<img src="images/tourdates/1121_Quixada.png"  class="img-responsive">
 					</div>
 					<div class="modal-footer">
 						<button type="button" class="btn btn-default" data-dismiss="modal">fechar</button>
