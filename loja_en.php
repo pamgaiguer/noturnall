@@ -11,7 +11,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-12 col-sm-7 col-md-7 col-lg-7">
-				<div class="loja">
+				<div class="loja" id="loja">
 					<p class="text-left">Where to find the Noturnall's products?</p>
 					<p class="text-left">New T-Shirts - Designed by <a href="http://loja.vanrock.com.br/linha-noturnall-ct-9f9c3" target="_blank">Van Rock</a></p>
 					<a href="#" class="" data-toggle="modal" data-target="#camiseta01"><img src="images/merchan/camiseta_01_dvd_700.jpg" width="180" ></a>
@@ -30,20 +30,21 @@
 					<a href="#" class="" data-toggle="modal" data-target="#moletom01"><img src="images/merchan/moletom_01_default.jpg"  width="180" ></a>
 					<a href="#" class="" data-toggle="modal" data-target="#moletom02"><img src="images/merchan/moletom_02_zumbi.jpg" width="180" ></a>
 					<a href="#" class="" data-toggle="modal" data-target="#caneca"><img src="images/merchan/canecas_700.jpg" width="180" ></a>
-					<a href="#" class="" data-toggle="modal" data-target="#camisa"><img src="images/merchan/camisa_01_noturnall_700.jpg" width="180" ></a>
+					<a href="#" class="" data-toggle="modal" data-target="#camisa"><img src="images/merchan/camisa_01_noturnall_700_min.jpg" height="140"></a>
 				</div>
 			</div>
 			<div class="col-xs-12 col-sm-5 col-md-5 col-lg-5">
 				<div class="loja">
-					<p>CDs, DVDs and LPs: <a href="http://www.diehard.com.br">DieHard</a></p>
+					<p>CDs, DVDs e LPs: <a href="http://www.diehard.com.br" target="_blank">DieHard</a></p>
+					<p>LP can be found at:<a href="https://www.facebook.com/pages/MAFER-Records/440646146050483" target="_blank">MAFER Records</a></p>
 					<a href="http://www.diehard.com.br/lojaweb/detalhes.asp?codprod=31891">
-						<img src="images/thumb_cd.jpg">
-					</a>
-					<a href="http://www.diehard.com.br/lojaweb/detalhes.asp?codprod=33186">
-						<img src="images/thumb_lp.jpg">
+						<img src="images/capa-cd.jpg" class="img-responsive">
 					</a>
 					<a href="http://www.diehard.com.br/lojaweb/detalhes.asp?codprod=33187">
-						<img src="images/thumb_dvd.jpg">
+						<img src="images/noturnall_dvd_baixa_edt.jpg" class="img-responsive">
+					</a>
+					<a href="http://www.diehard.com.br/lojaweb/detalhes.asp?codprod=33186">
+						<img src="images/noturnall_capa_vinil.JPG" class="img-responsive">
 					</a>
 					<br><br>
 				</div>
@@ -237,7 +238,7 @@
 						<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
 					</div>
 					<div class="modal-body">
-						<img src="images/merchan/camisa_01_noturnall_700.jpg" height="1138" width="700"  class="img-responsive">
+						<img src="images/merchan/camisa_01_noturnall_700_hor.jpg" height="1138" width="700"  class="img-responsive">
 					</div>
 					<div class="modal-footer">
 						<button type="button" class="btn btn-default" data-dismiss="modal">close</button>

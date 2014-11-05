@@ -190,7 +190,7 @@ $query = "SELECT dts_date, dts_local, dts_city_state
 						<br><br>
 						<a href="loja.php"><img src="images/merchan/canecas_700.jpg" class="img-responsive"></a>
 						<br><br>
-						<a href="loja.php"><img src="images/merchan/camiseta_05_swamp_700.jpg" class="img-responsive"></a>
+						<a href="loja.php"><img src="images/merchan/moletom_01_default.jpg" class="img-responsive"></a>
 						<br><Br>
 						<a href="loja.php"><img src="images/merchan/camiseta_02_fogo_700.jpg" class="img-responsive"></a>
 					</div>

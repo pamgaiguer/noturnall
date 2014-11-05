@@ -11,7 +11,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-				<div class="tour-dates">
+				<div class="tour-dates" id="tour-dates">
 					<p class="text-left">Posters dos próximos shows do Noturnall</p>
 					<a href="#" data-toggle="modal" data-target="#cartaz01">
 						<img src="images/tourdates/1106_Bauru.JPG" width="180">

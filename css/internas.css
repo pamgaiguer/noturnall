@@ -1,17 +1,17 @@
 a, a:hover, a:visited, a:link{
 	color: #bb9861;
 }
-#last-news span, #youtube-channel span, #tour-dates span, #facebook-page span, #icons-page span, #info-album span, #merch-page span{
+#last-news span, #youtube-channel span, #tour-dates span, #facebook-page span, #icons-page span, #info-album span, #merch-page span, #contact span{
 	font-size: 60px;
 	font-family:'armyofdarkness';
 	color: #f5b576;
 	letter-spacing: 3px;
 	line-height: 130%;
 }
-#last-news strong, #youtube-channel strong, #tour-dates strong, #facebook-page strong, #merch-page strong{
+#last-news strong, #youtube-channel strong, #tour-dates strong, #facebook-page strong, #merch-page strong, #contact strong{
 	color: #bb9861;
 }
-#last-news p, #youtube-channel p, #tour-dates p, #facebook-page p, #info-album p, #cd-lancamento p, #merch-page p{
+#last-news p, #youtube-channel p, #tour-dates p, #facebook-page p, #info-album p, #cd-lancamento p, #merch-page p, #contact p{
 	color: #8d7c61;
 }
 #last-news figure img{
@@ -19,6 +19,13 @@ a, a:hover, a:visited, a:link{
 	padding: 0px 5px 0px 0px;
 }
 #last-news figure p{
+	font-size: 14px;
+}
+#contact figure img{
+	float: left;
+	padding: 0px 5px 0px 0px;
+}
+#contact figure p{
 	font-size: 14px;
 }
 #cd-lancamento span{
