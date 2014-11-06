@@ -32,24 +32,29 @@ session_start();
 				<h1>Painel Adm - Cadastrar nova data</h1>
 				<a href="home.php" class="btn btn-primary">Voltar</a>
 				<br><br>
+				<div class="row">
+					<div class="col-lg-12">
+						<small>Favor utilizar o formato de datas como exemplo abaixo.</small>
+					</div>
+				</div>
 				<form action="new_send.php" method="post" role="form">
 					<div class="row">
 						<div class="col-lg-4">
 							<div class="form-group">
 								<label for="data">Data</label>
-								<input type="text" class="form-control" name="form-date" required>
+								<input type="text" class="form-control" name="form-date" required placeholder="XX/XX/XXXX">
 							</div>
 						</div>
 						<div class="col-lg-4">
 							<div class="form-group">
 								<label for="local">Local</label>
-								<input type="text" class="form-control" name="form-local" required>
+								<input type="text" class="form-control" name="form-local" required placeholder="Local do Show">
 							</div>
 						</div>
 						<div class="col-lg-4">
 							<div class="form-group">
 								<label for="city">Cidade/Estado</label>
-								<input type="text" class="form-control" name="form-city" required>
+								<input type="text" class="form-control" name="form-city" required placeholder="Cidade/Estado ou Cidade/País">
 							</div>
 						</div>
 					</div>
