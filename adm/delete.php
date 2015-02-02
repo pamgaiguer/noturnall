@@ -39,7 +39,12 @@ while ($row = mysql_fetch_assoc($result)) {
 					echo "<p>Erro ao estabelecer a conexão com a base de dados!</p>";
 				}
 				?>
+				<ol class="breadcrumb">
+					<li><a href="home.php">Home</a></li>
+					<li class="active">Excluir data</li>
+				</ol>
 				<h1>Painel Adm - Noturnall</h1>
+				<a href="home.php" class="btn btn-primary">Voltar</a>
 				<h3>Datas cadastradas</h3>
 				<table class="table table-bordered table-condensed">
 					<thead>

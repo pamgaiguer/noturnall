@@ -29,6 +29,11 @@ session_start();
 					echo "<p>Erro ao estabelecer a conexão com a base de dados!</p>";
 				}
 				?>
+				<ol class="breadcrumb">
+					<li><a href="home.php">Home</a></li>
+					<li class="active">Nova data</li>
+				</ol>
+
 				<h1>Painel Adm - Cadastrar nova data</h1>
 				<a href="home.php" class="btn btn-primary">Voltar</a>
 				<br><br>
@@ -58,7 +63,7 @@ session_start();
 							</div>
 						</div>
 					</div>
-					<input type="submit" class="btn btn-primary" value="Cadastrar">
+					<input type="submit" class="btn btn-success" value="Cadastrar">
 				</form>
 			</div>
 		</div>
