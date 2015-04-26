@@ -1,9 +1,9 @@
 body {
 	background-color: black;
-	background-image: url('../images/bg-nophoto-responsive-new.jpg');
+/*	background-image: url('../images/bg-nophoto-responsive-new.jpg');
 	background-repeat: no-repeat;
 	background-position: center top;
-	background-size: 1600px;
+	background-size: 1600px;*/
 	color: white;
 	width: 100%;
 }
@@ -28,7 +28,7 @@ img{
 	font-family: 'TranjanPro';
 	font-size: 11px;
 	color: #f1dfb6;
-	text-decoration:none;	
+	text-decoration:none;
 }
 .footer-all a:hover{
 	font-family: 'TranjanPro';
@@ -59,14 +59,14 @@ img{
 	font-family: 'armyofdarkness';
 	letter-spacing: 5px;
 	padding: 5px;
-	color: #f5b576;    
+	color: #f5b576;
 }
 .navbar .navbar-nav a {
 	color: #f5b576;
 	text-decoration: none;
 }
 .navbar .navbar-nav a:hover{
-	text-decoration: underline;	
+	text-decoration: underline;
 }
 .navbar .navbar-collapse {
     text-align: center;
@@ -106,7 +106,7 @@ img{
 	height: 0;
 	margin-bottom: 16px;
 	overflow: hidden;
-} 
+}
 .flex-video.widescreen { padding-bottom: 57.25%; }
 .flex-video.vimeo { padding-top: 0; }
 .flex-video iframe,

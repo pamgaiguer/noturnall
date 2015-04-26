@@ -35,6 +35,7 @@ $query = "SELECT dts_date, dts_local, dts_city_state
 			fjs.parentNode.insertBefore(js, fjs);
 		}(document, 'script', 'facebook-jssdk'));
 	</script>
+
 	<?php include 'includes/_menunav.php';?>
 	<div class="container">
 		<img id="responsive-band" src="images/photo_topo.png" class="img-responsive">
