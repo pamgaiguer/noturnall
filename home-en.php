@@ -36,10 +36,7 @@ $query = "SELECT dts_date, dts_local, dts_city_state
 		}(document, 'script', 'facebook-jssdk'));
 	</script>
 	<?php include 'includes/_menunav_en.php';?>
-	<div class="container">
-		<img id="responsive-band" src="images/photo_topo.png" class="img-responsive">
-	</div>
-	<div class="jumbotron"> </div>
+	<?php include 'includes/_photo_banda.php';?>
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-12 col-md-7">
@@ -51,6 +48,13 @@ $query = "SELECT dts_date, dts_local, dts_city_state
 					<div class="flex-video widescreen" style="margin: 0 auto;text-align:center;">
 						<div class="fb-like-box" data-href="https://www.facebook.com/noturnall" data-width="560" data-height="1000" data-colorscheme="dark" data-show-faces="false" data-header="false" data-stream="true" data-show-border="false"> </div>
 					</div>
+					<br>
+					<hr>
+					<br>
+				</div>
+				<div id="soundcloud">
+					<img src="images/noturnall-simbolo.png"><span>NOTURNALL AT SOUNDCLOUD</span>
+					<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/149249758&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
 					<br>
 					<hr>
 					<br>
@@ -161,10 +165,15 @@ $query = "SELECT dts_date, dts_local, dts_city_state
 					<div id="info-album">
 						<img src="images/noturnall-simbolo.png"><span>NEW ALBUM</span>
 						<br>
-						<a href="loja_en.php"><img src="images/capa-cd.jpg" class="img-responsive"></a>
+							<a href="loja_en.php"><img src="images/backtofuckyouup/backtofuckyouup-cover.JPG" class="img-responsive"></a>
 						<br>
 						<hr>
-						<img src="images/noturnall-simbolo.png"><span>NEW DVD</span>
+						<img src="images/noturnall-simbolo.png"><span>FIRST ALBUM</span>
+						<br>
+							<a href="loja_en.php"><img src="images/capa-cd.jpg" class="img-responsive"></a>
+						<br>
+						<hr>
+							<img src="images/noturnall-simbolo.png"><span>NEW DVD</span>
 						<br>
 						<a href="loja_en.php"><img src="images/noturnall_dvd_baixa_edt.jpg" class="img-responsive"></a>
 						<hr>

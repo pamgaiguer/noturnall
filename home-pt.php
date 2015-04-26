@@ -1,21 +1,21 @@
 <?php
 require_once ('config/connection.php');
-	if (!isset($_SESSION)) {
-		session_start();
-	}
+if (!isset($_SESSION)) {
+	session_start();
+}
 
 $query = "SELECT dts_date, dts_local, dts_city_state
-	FROM dates
-	WHERE dts_active = 1
-	ORDER BY dts_id desc";
-	mysql_select_db('noturnall');
+FROM dates
+WHERE dts_active = 1
+ORDER BY dts_id desc";
+mysql_select_db('noturnall');
 
-	$result = mysql_query($query);
+$result = mysql_query($query);
 
-	$rows = array();
-	while ($row = mysql_fetch_assoc($result)) {
-		array_push($rows, $row);
-	}
+$rows = array();
+while ($row = mysql_fetch_assoc($result)) {
+	array_push($rows, $row);
+}
 ?>
 <!DOCTYPE html>
 <html>
@@ -37,10 +37,7 @@ $query = "SELECT dts_date, dts_local, dts_city_state
 	</script>
 
 	<?php include 'includes/_menunav.php';?>
-	<div class="container">
-		<img id="responsive-band" src="images/photo_topo.png" class="img-responsive">
-	</div>
-	<div class="jumbotron"> </div>
+	<?php include 'includes/_photo_banda.php';?>
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-12 col-md-7">
@@ -50,8 +47,14 @@ $query = "SELECT dts_date, dts_local, dts_city_state
 					<br>
 					<hr>
 					<div class="flex-video widescreen" style="margin: 0 auto;text-align:center;">
-						<div class="fb-like-box" data-href="https://www.facebook.com/noturnall" data-width="560" data-height="1000" data-colorscheme="dark" data-show-faces="false" data-header="false" data-stream="true" data-show-border="false"> </div>
+						<div class="fb-like-box" data-href="https://www.facebook.com/noturnall" data-width="560" data-height="1500" data-colorscheme="dark" data-show-faces="false" data-header="false" data-stream="true" data-show-border="false"> </div>
 					</div>
+					<br>
+					<hr>
+				</div>
+				<div id="soundcloud">
+					<img src="images/noturnall-simbolo.png"><span>NOTURNALL NO SOUNDCLOUD</span>
+					<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/149249758&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
 					<br>
 					<hr>
 					<br>
@@ -161,6 +164,11 @@ $query = "SELECT dts_date, dts_local, dts_city_state
 					<hr>
 					<div id="info-album">
 						<img src="images/noturnall-simbolo.png"><span>NOVO ALBUM</span>
+						<br>
+						<a href="loja.php"><img src="images/backtofuckyouup/backtofuckyouup-cover.JPG" class="img-responsive"></a>
+						<br>
+						<hr>
+						<img src="images/noturnall-simbolo.png"><span>DEBUT ALBUM</span>
 						<br>
 						<a href="loja.php"><img src="images/capa-cd.jpg" class="img-responsive"></a>
 						<br>

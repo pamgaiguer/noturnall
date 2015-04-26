@@ -6,9 +6,7 @@
 
 <body>
 	<?php include 'includes/_menunav_en.php';?>
-	<div class="container">
-		<img id="responsive-band" src="images/photo_topo.png" class="img-responsive">
-	</div>
+	<?php include 'includes/_photo_banda.php';?>
 
 	<div class="container">
 		<div class="row">

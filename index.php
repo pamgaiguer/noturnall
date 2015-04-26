@@ -28,13 +28,24 @@
 					<div class="col-md-3 col-xs-12"> </div>
 				</div>
 				<p id="title-home" class="text-center">NOTURNALL - NEW ALBUM // BACK TO FUCK YOU UP!!!</p>
+				<p id="title-home" class="text-center">TO BE RELEASED IN MAY/2015!</p>
 				<div class="col-md-1 col-xs-12"> </div>
 
 				<div class="row" id="flags">
 					<div class="col-md-3 col-xs-12"> </div>
 					<div class="col-md-6 col-xs-12">
-						<a href="home-pt.php"><figure><img src="images/icon-brazil.png" class="img-responsive"><figcaption>ENTRAR</figcaption></figure></a>
-						<a href="home-en.php"><figure><img src="images/icon-england.png" class="img-responsive"><figcaption>ENTER</figcaption></figure></a>
+						<a href="home-pt.php">
+							<figure>
+								<img src="images/icon-brazil.png" class="img-responsive">
+								<figcaption class="text-center">ENTRAR</figcaption>
+							</figure>
+						</a>
+						<a href="home-en.php">
+							<figure>
+								<img src="images/icon-england.png" class="img-responsive">
+								<figcaption class="text-center">ENTER</figcaption>
+							</figure>
+						</a>
 					</div>
 					<div class="col-md-3 col-xs-12"> </div>
 				</div>

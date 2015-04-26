@@ -5,9 +5,7 @@
 </head>
 <body>
 	<?php include 'includes/_menunav.php';?>
-	<div class="container">
-		<img id="responsive-band" src="images/photo_topo.png" class="img-responsive">
-	</div>
+	<?php include 'includes/_photo_banda.php';?>
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-12 col-sm-7 col-md-7 col-lg-7">
@@ -37,13 +35,16 @@
 				<div class="loja">
 					<p>CDs, DVDs e LPs: <a href="http://www.diehard.com.br" target="_blank">DieHard</a></p>
 					<p>LP também na: <a href="https://www.facebook.com/pages/MAFER-Records/440646146050483" target="_blank">MAFER Records</a></p>
-					<a href="http://www.diehard.com.br/lojaweb/detalhes.asp?codprod=31891">
+					<a href="http://www.diehard.com.br/lojaweb/detalhes.asp?codprod=34615" target="_blank">
+						<img src="images/backtofuckyouup/backtofuckyouup-cover.JPG" class="img-responsive">
+					</a>
+					<a href="http://www.diehard.com.br/lojaweb/detalhes.asp?codprod=31891" target="_blank">
 						<img src="images/capa-cd.jpg" class="img-responsive">
 					</a>
-					<a href="http://www.diehard.com.br/lojaweb/detalhes.asp?codprod=33187">
+					<a href="http://www.diehard.com.br/lojaweb/detalhes.asp?codprod=33187"  target="_blank">
 						<img src="images/noturnall_dvd_baixa_edt.jpg" class="img-responsive">
 					</a>
-					<a href="http://www.diehard.com.br/lojaweb/detalhes.asp?codprod=33186">
+					<a href="http://www.diehard.com.br/lojaweb/detalhes.asp?codprod=33186"  target="_blank">
 						<img src="images/noturnall_capa_vinil.JPG" class="img-responsive">
 					</a>
 					<br><br>
