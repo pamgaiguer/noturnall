@@ -22,6 +22,7 @@
 					<p>USA e Europe: Holger Koch for Metal Ville - <a href="mailto:holger@fd-entertainment-group.de" target="_blank">holger@fd-entertainment-group.de</a></p><br>
 					<p>Italy (Partner Collaboration) <a href="https://www.facebook.com/agentuream?fref=ts" target="_blank">Roberto Risso</a> - <a href="mailto:rob@agentur-eam.de">rob@agentur-eam.de</a></p><br>
 					<p>Official Audio and Video Studios: Fusão VM&T - <a href="http://www.fusaoestudios.com.br" target="_blank">www.fusaoestudios.com.br</a> / <a href="http://www.facebook.com/estudiofusao" target="_blank">www.facebook.com/estudiofusao</a> e Foggy: <a href="http://www.foggyfilmes.com">www.foggyfilmes.com</a></p><br>
+					<p>Official Photo for "Back to Fuck You Up": <a href="https://www.facebook.com/fabioaugustofotografo" target="_blank">Fábio Augusto</a></p>
 					<p>Official Photo Team: Woody Studio - <A href="mailto:woody@studiowoody.com.br">woody@studiowoody.com.br</A> and Rafael Benitez Studios - <a href="mailto:contato@treearts.com">contato@treearts.com</a></p><br>
 					<p>Official Developer (Webmaster): Pamella Gaiguer - <a href="mailto:pamella@pamellagaiguer.com">pamella@pamellagaiguer.com</a> e <a href="http://www.pamellagaiguer.com">http://www.pamellagaiguer.com</a></p><br>
 					<p>Official Artworks: Carlos Fides from Artside Digital Studio - <a href="mailto:artside.contatos@gmail.com">artside.contatos@gmail.com</a> </p><br>

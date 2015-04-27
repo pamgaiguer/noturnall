@@ -60,7 +60,13 @@ $query = "SELECT dts_date, dts_local, dts_city_state
 					<br>
 				</div>
 				<div id="youtube-channel">
-					<img src="images/noturnall-simbolo.png"><span>NOTURNALL CHANNELL</span>
+					<img src="images/noturnall-simbolo.png"><span>NOTURNALL CHANNEL</span>
+					<div class="flex-video widescreen">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/qIRzcTpgiXA" frameborder="0" allowfullscreen class="center-block"></iframe>
+					</div>
+					<br>
+					<br>
+					<hr>
 					<div class="flex-video widescreen" style="margin: 0 auto; text-align:center">
 						<iframe width="560" height="315" src="//www.youtube.com/embed/etjQWAm84rw" frameborder="0" allowfullscreen class="center-block"></iframe>
 					</div>
