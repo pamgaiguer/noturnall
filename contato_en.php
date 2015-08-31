@@ -11,7 +11,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-12 col-md-7">
-				<img src="images/banner-noturnall.jpg" class="img-responsive">
+				<img src="images/banner-contato-noturnall.jpg" height="560" width="560" class="img-responsive">
 			</div>
 			<div class="col-xs-12 col-md-5">
 				<div id="contact">
