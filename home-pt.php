@@ -4,10 +4,7 @@ if (!isset($_SESSION)) {
 	session_start();
 }
 
-$query = "SELECT dts_date, dts_local, dts_city_state
-FROM dates
-WHERE dts_active = 1
-ORDER BY dts_id desc";
+$query = "SELECT dts_date, dts_local, dts_city_state FROM dates WHERE dts_active = 1 ORDER BY dts_id desc";
 mysql_select_db('noturnall');
 
 $result = mysql_query($query);
@@ -17,6 +14,7 @@ while ($row = mysql_fetch_assoc($result)) {
 	array_push($rows, $row);
 }
 ?>
+
 <!DOCTYPE html>
 <html>
 <head>

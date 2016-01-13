@@ -1,7 +1,7 @@
 <?php
-    $caminho="dbmy0102.whservidor.com";
+    $caminho="mysql01.noturnall.hospedagemdesites.ws";
     $usuario="noturnall";
-    $senha="1q2w3e4r";
+    $senha="Auros3011";
     $banco="noturnall";
 
     $con = mysql_connect($caminho,$usuario,$senha)

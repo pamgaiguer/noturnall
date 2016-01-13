@@ -3,9 +3,9 @@ $data = $_POST['form-date'];
 $local = $_POST['form-local'];
 $city = $_POST['form-city'];
 
-$servername = "dbmy0102.whservidor.com";
+$servername = "mysql01.noturnall.hospedagemdesites.ws";
 $username = "noturnall";
-$password = "1q2w3e4r";
+$password = "Auros3011";
 $dbname = "noturnall";
 
 // Create connection
